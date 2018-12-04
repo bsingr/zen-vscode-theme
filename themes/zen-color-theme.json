@@ -2,8 +2,22 @@
 	"name": "zen",
 	"type": "light",
 	"colors": {
+		"selection.background": "#eeeeee",
+		"input.background": "#cccccc",
 		"editor.background": "#ffffff",
-		"editor.foreground": "#000000"
+		"editor.foreground": "#000000",
+		"editorWhitespace.foreground": "#f3f3f3",
+		"editorLineNumber.foreground": "#eeeeee",
+		"activityBar.background": "#eeeeee",
+		"activityBar.border": "#dddddd",
+		"editor.lineHighlightBorder": "#fafafa",
+		"editor.lineHighlightBackground": "#fafafa",
+		"sideBar.background": "#ffffff",
+		"sideBar.border": "#cccccc",
+		"statusBar.background": "#dddddd",
+		"statusBar.border": "#cccccc",
+		"statusBar.noFolderBackground": "#dddddd",
+		"statusBar.debuggingBackground": "#dddddd"
 	},
 	"tokenColors": [
 		{
@@ -19,7 +33,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#AAAAAA"
 			}
 		},
@@ -111,7 +124,6 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#AA3731"
 			}
 		},
@@ -123,7 +135,6 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#7A3E9D"
 			}
 		},
@@ -235,7 +246,6 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#91B3E0"
 			}
 		},
