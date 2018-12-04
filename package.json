@@ -7,6 +7,9 @@
     "engines": {
         "vscode": "^1.17.0"
     },
+    "scripts": {
+        "link": "ln -s `pwd` ~/.vscode/extensions/"
+    },
     "categories": [
         "Themes"
     ],
